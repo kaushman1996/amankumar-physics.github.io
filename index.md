@@ -6,46 +6,130 @@ title: Aman Kumar
 # Aman Kumar
 
 **Theoretical Condensed Matter Physics**  
-Dirac Postdoctoral Fellow, National High Magnetic Field Laboratory (NHFML),  
+Dirac Postdoctoral Fellow, National High Magnetic Field Laboratory (NHFML)  
 Florida State University  
 
 📧 akumar@magnet.fsu.edu  
-🔗 [Google Scholar](https://scholar.google.com/citations?user=ucgYPl8AAAAJ)
+📧 kaushikaman333@gmail.com  
+📞 (+1) 850‑264‑3721  
+
+🔗 [Google Scholar](https://scholar.google.com/citations?user=ucgYPl8AAAAJ&hl=en&oi=sra)
 
 ---
 
-## About Me
+## About
 
-I am a condensed matter theorist working on emergent phenomena in strongly correlated quantum systems, including electronic crystallinity, fractionalization, topological order, and transport in interacting many-body systems.  
+I am a condensed matter theorist working on emergent phenomena in strongly correlated quantum systems, including electronic crystallinity, fractionalization, topological order, and transport in interacting many‑body systems.
 
-My research combines large-scale exact diagonalization, tensor-network methods, and field-theoretic approaches to connect microscopic models with experimentally observable signatures such as electrical and thermal transport.
+My research is primarily numerical, using large‑scale exact diagonalization (including the FEAST algorithm), tensor‑network methods, and finite‑temperature techniques, complemented by field‑theoretic analysis. I focus on connecting microscopic models to experimentally measurable observables such as electrical and thermal transport.
 
 ---
 
 ## Research Interests
 
 - Wigner crystal and generalized charge order in triangular moiré systems  
-- Pinball phases, metal–insulator transitions, and correlated metals  
-- Fractionalization and topological order in frustrated magnets  
-- Thermal Hall transport and edge physics in Kitaev materials  
-- Quasiparticle stability and many-body localization in Hilbert space  
+- Quantum melting, pinball phases, and metal–insulator transitions  
+- Fractionalization and topological order in frustrated magnets (Kitaev systems)  
+- Thermal Hall transport using tensor‑network methods  
+- Quasiparticle stability and many‑body localization in Hilbert space  
 
 ---
 
-## Research Highlights
+## Appointments & Education
 
-### Generalized Wigner Crystals in Moiré Systems
-I developed the first finite-temperature quantum theory of generalized Wigner crystals in triangular moiré heterostructures, demonstrating how long-range interactions and quantum effects stabilize unconventional phases such as pinball crystals and lead to counterintuitive melting behavior.
+**Dirac Postdoctoral Fellow** (2023–present)  
+National High Magnetic Field Laboratory, Tallahassee, Florida  
+Advisor: Hitesh J. Changlani  
 
-### Quantum Thermal Melting
-Using finite-temperature Lanczos and Monte Carlo methods, I showed that quantum effects can *increase* melting temperatures in first-order transitions despite softening order parameters, providing a general thermodynamic explanation relevant to moiré materials.
+**Ph.D. in Physics** (2018–2023)  
+Tata Institute of Fundamental Research, Mumbai  
+Advisor: Vikram Tripathi  
 
-### Thermal Hall Transport in Kitaev Magnets
-I developed a tensor-network-based method to compute thermal Hall conductivity directly from edge currents, reproducing half-quantized plateaus in the Kitaev limit and explaining large unquantized signals observed experimentally in α-RuCl₃.
+**M.Sc. in Physics** (2016–2018)  
+Tata Institute of Fundamental Research, Mumbai  
 
-### Quasiparticle Stability
-I reinterpret quasiparticle decay as a localization transition in many-body Hilbert space, enabling the study of fractionalized and conventional quasiparticles on equal footing using FEAST exact diagonalization.
+**B.Sc. (Hons.) in Physics** (2013–2016)  
+University of Delhi  
 
+---
+
+## Research Visits
+
+**Harvard University** (Sept–Nov 2022)  
+Visiting Subir Sachdev’s group
+
+---
+
+## Publications
+
+1. **Melting temperature shifts from quantum fluctuations in generalized Wigner crystals**  
+   *A. Kumar*, S. Sherif, V. Elser, H. J. Changlani  
+   [arXiv:2604.19870](https://arxiv.org/abs/2604.19870)
+
+2. **Origin and stability of generalized Wigner crystallinity in triangular moiré systems**  
+   *A. Kumar*, C. Lewandowski, H. J. Changlani  
+   *npj Quantum Materials* **10**, 95 (2025)  
+   [Journal link](https://www.nature.com/articles/s41535-025-00792-1)
+
+3. **Haerter–Shastry kinetic magnetism and metallicity in the triangular Hubbard model**  
+   S. Sherif, P. Sharma, *A. Kumar*, H. J. Changlani  
+   [arXiv:2510.18954](https://arxiv.org/abs/2510.18954)
+
+4. **Identifying chiral topological order in microscopic spin models by modular commutator**  
+   A. Maity, *A. Kumar*, V. Tripathi  
+   [arXiv:2510.06086](https://doi.org/10.48550/arXiv.2510.06086)
+
+5. **Field tuning Kitaev systems for spin fractionalization and topological order**  
+   J. Das, S. Kundu, *A. Kumar*, V. Tripathi  
+   *J. Phys.: Condens. Matter* **36**, 443001 (2024)  
+   [Journal link](https://iopscience.iop.org/article/10.1088/1361-648X/ad6827)
+
+6. **Thermal Hall conductivity near field‑suppressed magnetic order in a Kitaev–Heisenberg model**  
+   *A. Kumar*, V. Tripathi  
+   *Phys. Rev. B* **107**, L220406 (2023)  
+   [Journal link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220406)
+
+7. **Quasiparticle metamorphosis in the random t–J model**  
+   *A. Kumar*, S. Sachdev, V. Tripathi  
+   *Phys. Rev. B* **106**, L081120 (2022)  
+   [Journal link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L081120)
+
+8. **Kitaev quasiparticles in a proximate spin liquid: A many‑body localization perspective**  
+   *A. Kumar*, V. Tripathi  
+   *Phys. Rev. B* **102**, 100401(R) (2020)  
+   [Journal link](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.100401)
+
+---
+
+## Awards and Fellowships
+
+- Dirac Fellowship, NHFML (2023)  
+- APS Distinguished Student Award (2022)  
+- Sarojini Damodaran International Travel Fellowship, TIFR (2022)  
+- Academic Merit Award, University of Delhi (2016)  
+
+---
+
+## Teaching Experience
+
+- **Statistical Physics I** — Kedar Damle (2020)  
+- **Condensed Matter Field Theory** — Kedar Damle (2020–21)  
+- **Statistical Physics II** — Tridib Sadhu (2021)  
+- **Quantum Mechanics II** — Vikram Tripathi (2023)  
+
+---
+
+## Contact
+
+National High Magnetic Field Laboratory  
+1800 E Paul Dirac Dr  
+Tallahassee, Florida 32310  
+
+📧 akumar@magnet.fsu.edu  
+
+---
+
+_Last updated: May 2026_
 ---
 
 ## Publications (Selected)
