@@ -3,10 +3,19 @@ layout: default
 title: CV
 ---
 
+<nav style="margin-bottom: 2em; font-size: 1.05em;">
+  <a href="/">Home</a> &nbsp;|&nbsp;
+  <a href="/research">Research</a> &nbsp;|&nbsp;
+  <a href="/publications">Publications</a> &nbsp;|&nbsp;
+  <a href="/cv">CV</a>
+</nav>
+
+---
+
 # Curriculum Vitae
 
 📄 **PDF version:**  
-[Download CV (PDF)](Aman_Kumar_CV.pdf)
+Aman_Kumar_CV.pdf
 
 ---
 
@@ -20,17 +29,18 @@ Advisor: Hitesh J. Changlani
 
 ## Education
 
-- **Ph.D. in Physics**, Tata Institute of Fundamental Research (2023)  
-  Advisor: Vikram Tripathi  
-- **M.Sc. in Physics**, Tata Institute of Fundamental Research (2018)  
-- **B.Sc. (Hons.) in Physics**, University of Delhi (2016)
+- Ph.D. in Physics, Tata Institute of Fundamental Research (2023)  
+- M.Sc. in Physics, Tata Institute of Fundamental Research (2018)  
+- B.Sc. (Hons.) in Physics, University of Delhi (2016)
 
 ---
 
-## Awards and Fellowships
+## Awards
 
 - Dirac Fellowship, NHFML (2023)  
 - APS Distinguished Student Award (2022)  
+
+---
 - Sarojini Damodaran International Travel Fellowship (2022)  
 - Academic Merit Award, University of Delhi (2016)
 
