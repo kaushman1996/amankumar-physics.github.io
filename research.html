@@ -9,7 +9,7 @@
       font-family: Georgia, "Times New Roman", serif;
       background: #ffffff;
       color: #111;
-      line-height: 1.65;
+      line-height: 1.7;
     }
     .container {
       max-width: 900px;
@@ -17,20 +17,24 @@
       padding: 0 20px;
     }
     nav {
-      margin-bottom: 30px;
+      margin-bottom: 35px;
       font-size: 17px;
       text-align: center;
     }
     nav a {
       text-decoration: none;
       color: #0645ad;
-      margin: 0 10px;
+      margin: 0 12px;
     }
     nav a:hover {
       text-decoration: underline;
     }
     h1 {
       margin-top: 10px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      margin-top: 35px;
     }
   </style>
 </head>
@@ -47,28 +51,129 @@
 
 <h1>Research</h1>
 
+<h2>Research Overview</h2>
+
 <p>
 My research focuses on emergent phenomena in strongly correlated quantum many‑body systems,
-where long‑range interactions, frustration, and quantum fluctuations produce unconventional
-electronic order and transport.
+where long‑range interactions, geometric frustration, and quantum fluctuations combine to
+produce unconventional electronic order and transport. A recurring theme of my work is to
+understand how these effects qualitatively reshape finite‑temperature phase diagrams and
+response functions, often beyond the scope of conventional quasiparticle descriptions. I aim
+to develop controlled, microscopic connections between interacting lattice Hamiltonians and
+experimentally accessible observables such as electrical conductivity, thermal Hall response,
+and the thermal melting of correlated electronic phases.
 </p>
 
-<h2>Generalized Wigner Crystals</h2>
 <p>
-Finite‑temperature quantum theory of Wigner crystals in triangular moiré systems, including
-pinball phases and anomalous melting behavior.
+My approach is primarily numerical, combining large‑scale exact diagonalization (including
+FEAST‑based methods), finite‑temperature Lanczos techniques, tensor‑network approaches, and
+Monte Carlo simulations. These methods allow access to strongly interacting regimes where
+perturbative or mean‑field approaches fail, while retaining a transparent link to microscopic
+degrees of freedom. Wherever possible, numerical results are guided by symmetry considerations
+and insights from many‑body field theory.
 </p>
 
-<h2>Thermal Hall Transport</h2>
+<h2>Generalized Wigner Crystals in Triangular Moiré Systems</h2>
+
 <p>
-Tensor‑network‑based calculations of thermal Hall conductivity in Kitaev materials such as
-α‑RuCl₃.
+A major component of my research concerns generalized Wigner crystal (GWC) phases in triangular
+moiré superlattices, particularly transition‑metal dichalcogenide heterobilayers. In these
+systems, long‑range Coulomb interactions stabilize charge‑ordered states at fractional fillings
+commensurate with the moiré lattice. While experiments have directly imaged such crystalline
+states and measured their melting temperatures, theoretical understanding has often been limited
+to zero temperature or simplified short‑range interaction models.
 </p>
 
-<h2>Quasiparticle Stability</h2>
 <p>
-Localization‑based understanding of quasiparticle stability in many‑body Hilbert space using
-large‑scale exact diagonalization.
+I carried out the first systematic finite‑temperature quantum studies of GWCs using extended
+Hubbard models with realistic interaction profiles. By comparing truncated short‑range models
+with long‑range Coulomb interactions, I established when simplified descriptions succeed and
+when they fail. This analysis explains experimentally observed asymmetries between different
+fractional fillings and clarifies the role of experimentally tunable parameters such as the
+gate‑to‑sample separation in controlling the stability of charge order.
+</p>
+
+<p>
+Beyond classical Wigner crystals, I identified partially quantum‑melted “pinball” phases, in
+which a subset of electrons remains localized while the remaining electrons retain substantial
+mobility. These phases have no classical analogue and naturally account for metallic transport
+coexisting with strong charge order, as reported in recent experiments.
+</p>
+
+<h2>Quantum Thermal Melting and Entropic Effects</h2>
+
+<p>
+Classical approaches are known to significantly overestimate the melting temperatures of
+generalized Wigner crystals relative to experiment. To resolve this discrepancy, I studied the
+impact of quantum effects on thermal phase transitions across a range of fractional fillings.
+Using finite‑temperature Lanczos methods and classical Monte Carlo simulations augmented with
+perturbative quantum corrections, I mapped out temperature–interaction phase diagrams beyond the
+classical limit.
+</p>
+
+<p>
+A central result of this work is the demonstration that, for certain fillings where the thermal
+transition is first order, quantum fluctuations can <em>increase</em> the melting temperature even
+as the corresponding order parameter is softened. This counterintuitive behavior can be
+understood by explicitly evaluating quantum corrections to both the internal energy and entropy
+of the competing phases. By analyzing the resulting free‑energy balance, I identified general
+conditions under which quantum effects stabilize ordered phases at elevated temperatures. These
+ideas provide a framework applicable beyond moiré systems to interacting electronic crystals
+more broadly.
+</p>
+
+<h2>Thermal Hall Transport in Kitaev Magnets</h2>
+
+<p>
+Another major direction of my research addresses thermal transport in frustrated quantum
+magnets, particularly Kitaev and Kitaev–Heisenberg models. Experiments on materials such as
+α‑RuCl<sub>3</sub> have reported large thermal Hall signals, raising questions about the persistence
+of fractionalized excitations in magnetically ordered regimes.
+</p>
+
+<p>
+Standard Kubo‑formula approaches to thermal Hall conductivity are difficult to implement
+numerically due to boundary contributions and the need to subtract energy magnetization currents.
+To overcome these challenges, I developed tensor‑network‑based methods that compute the thermal
+Hall response directly from edge currents in finite‑temperature purified states. This approach
+avoids assumptions about the underlying quasiparticle content and allows direct access to
+transport properties in interacting lattice systems.
+</p>
+
+<p>
+Using these methods, I reproduced half‑quantized thermal Hall plateaus in the Kitaev limit at low
+fields and demonstrated the persistence of large, generally non‑quantized thermal Hall responses
+in the presence of additional interactions and magnetic order. These results provide a unified
+microscopic interpretation consistent with experimental trends in candidate Kitaev materials.
+</p>
+
+<h2>Quasiparticle Stability and Hilbert‑Space Localization</h2>
+
+<p>
+Quasiparticles provide a powerful organizing principle in weakly interacting systems, but their
+fate in strongly correlated regimes remains an open problem. I approached this question by
+recasting quasiparticle stability as a localization problem in the many‑body Hilbert space, where
+stable quasiparticles occupy a vanishing fraction of the spectrum as system size increases.
+</p>
+
+<p>
+Using FEAST‑based exact diagonalization, I accessed large numbers of many‑body excited states in
+targeted energy windows, enabling the study of quasiparticle lifetimes beyond perturbative
+regimes. Applying this framework to Kitaev–Heisenberg and disordered t–J models, I demonstrated
+that fractionalized excitations can remain well defined deep into magnetically ordered phases,
+while conventional magnons and Landau quasiparticles undergo nontrivial metamorphoses. This
+perspective places conventional and fractionalized excitations on equal footing and sheds light
+on anomalous transport phenomena observed in correlated materials.
+</p>
+
+<h2>Ongoing and Future Directions</h2>
+
+<p>
+Ongoing projects extend these ideas to metal–insulator transitions at half filling in extended
+Hubbard models on triangular lattices, strange‑metal transport in doped Mott insulators, and
+two‑dimensional tensor‑network approaches to thermal Hall transport using PEPS. Across these
+directions, my goal is to develop quantitatively reliable diagnostics of emergent order and
+transport that can be directly confronted with experiments in quantum materials.
 </p>
 
 </div>
