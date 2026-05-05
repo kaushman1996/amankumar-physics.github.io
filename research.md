@@ -1,17 +1,3 @@
----
-layout: default
-title: Research
----
-
-<nav style="margin-bottom: 2em; font-size: 1.05em;">
-  <a href="/">Home</a> &nbsp;|&nbsp;
-  <a href="/research">Research</a> &nbsp;|&nbsp;
-  <a href="/publications">Publications</a> &nbsp;|&nbsp;
-  <a href="/cv">CV</a>
-</nav>
-
----
-
 # Research
 
 ## Generalized Wigner Crystals in Moiré Systems
