@@ -1,15 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Research of Aman Kumar in correlated quantum matter, electronic crystallinity, pinball liquids and thermal Hall transport."><title>Research | Aman Kumar</title><link rel="stylesheet" href="style.css"></head>
-<body><div class="container">
-<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="research.html" class="active" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="teaching.html">Teaching</a><a href="cv.html">CV</a></nav>
-<header class="page-header"><span class="section-kicker">Research portfolio</span><h1>Research</h1><p>Understanding how strong interactions, frustration, and quantum fluctuations produce new phases of matter—and how those phases reveal themselves in transport and spectroscopy.</p></header>
-<div class="topic-tags"><span>Strong correlations</span><span>Electronic crystallinity</span><span>Moiré materials</span><span>Pinball liquids</span><span>Thermal Hall effect</span><span>Quantum many-body methods</span></div>
-<section class="content-panel"><span class="section-kicker">Overview</span><h2>From microscopic models to measurable phenomena</h2><p>My research investigates emergent phenomena in strongly correlated quantum many-body systems, with particular emphasis on electronic crystallinity, fractionalization, topological order, and transport. I study how long-range interactions, geometric frustration, and quantum fluctuations shape phase diagrams and response functions.</p><p>My approach combines exact diagonalization, finite-temperature Lanczos methods, Monte Carlo simulations, and tensor-network techniques, informed by symmetry and many-body theory. The goal is to connect microscopic Hamiltonians to experimentally accessible signatures.</p></section>
-<section class="research-card"><span class="section-kicker">01 / Charge order and moiré matter</span><h2>Generalized Wigner crystals and quantum melting</h2><p>Long-range Coulomb interactions can stabilize charge-ordered phases at fractional fillings of triangular moiré lattices. I study their stability and finite-temperature melting in extended Hubbard models, including the role of interaction range and electrostatic screening.</p><p>An important theme is the competition between classical charge order and quantum motion. In certain regimes, quantum fluctuations modify the free-energy balance between phases and can even raise a first-order melting temperature while reducing the ordered moment.</p><p><a href="https://www.nature.com/articles/s41535-025-00792-1">Read related work ↗</a></p></section>
-<section class="research-card"><span class="section-kicker">02 / Correlated metallicity</span><h2>Pinball liquids and metal–insulator transitions</h2><p>I investigate the interplay of charge order and itinerancy in triangular-lattice extended Hubbard models, including the spinful system at electron density <strong>n = 1/2</strong>. A pinball liquid combines a comparatively localized charge-rich sublattice with mobile carriers on the remaining sites.</p><p>Current questions include how such partially melted charge order influences metallic transport, optical conductivity, temperature-dependent resistivity, and transitions to fully charge-ordered insulating states. These are active research directions, rather than established universal properties of the phase.</p></section>
-<section class="research-card"><span class="section-kicker">03 / Quantum magnets</span><h2>Thermal Hall transport and fractionalization</h2><p>In Kitaev and related frustrated magnets, the thermal Hall response can probe unconventional excitations and the influence of magnetic order. My work uses microscopic approaches to study thermal transport, including tensor-network and finite-temperature methods.</p><p>I am interested in how large or nearly quantized responses evolve with field, additional interactions, and competing ordered phases, and in how transport calculations can be compared with candidate Kitaev materials.</p><p><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220406">Read related work ↗</a></p></section>
-<section class="research-card"><span class="section-kicker">04 / Excitations</span><h2>Quasiparticle stability in many-body Hilbert space</h2><p>Strong correlations challenge the conventional quasiparticle picture. I have studied quasiparticle stability through the structure of many-body eigenstates, using targeted exact diagonalization and the perspective of localization in Hilbert space.</p><p>This framework connects the fate of fractionalized excitations in frustrated magnets with quasiparticle reconstruction in interacting electronic models.</p><p><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L081120">Read related work ↗</a></p></section>
-<section class="content-panel"><span class="section-kicker">Looking ahead</span><h2>Current and emerging directions</h2><p>My ongoing interests include transport in triangular-lattice Hubbard systems, quantum melting and correlated metallicity in moiré materials, finite-temperature tensor networks, and electromagnetic response in layered quantum materials. I am also exploring connections between orbital currents, strain, and collective electromagnetic instabilities in graphene-based systems.</p><p>Across these problems, I aim to identify concrete theoretical predictions and observables that can distinguish competing many-body phases.</p></section>
-<footer class="site-footer"><span>Aman Kumar · Nanyang Technological University, Singapore</span><a href="mailto:aman.kumar@ntu.edu.sg">Get in touch ↗</a></footer>
-</div></body></html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Aman Kumar's research in strongly correlated quantum matter, moiré Wigner crystals, pinball liquids, and Kitaev magnetism.">
+<title>Research | Aman Kumar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<nav aria-label="Main navigation">
+<a href="index.html">Home</a><a href="research.html" class="active" aria-current="page">Research</a><a href="publications.html">Publications</a><a href="teaching.html">Teaching</a><a href="cv.html">CV</a>
+</nav>
+<main class="research-page" id="top">
+<header class="page-header research-intro">
+<span class="section-kicker">Condensed matter theory</span>
+<h1>Research</h1>
+<p class="research-lead">I study how strong electronic interactions and quantum fluctuations give rise to emergent order, unconventional excitations, and transport in quantum materials.</p>
+</header>
+<div class="research-layout">
+<aside class="research-sidebar" aria-label="Research topics">
+<div class="research-sidebar-inner">
+<span class="section-kicker">Explore topics</span>
+<a href="#approach">Overview &amp; methods</a>
+<a href="#wigner">Wigner crystallinity</a>
+<a href="#pinball">Pinball liquids</a>
+<a href="#thermal-hall">Kitaev magnets</a>
+<a href="#quasiparticles">Quasiparticles</a>
+<a href="#directions">Current directions</a>
+</div>
+</aside>
+<div class="research-main">
+<section id="approach" class="research-section">
+<span class="research-index">01 · Perspective</span>
+<h2>Overview &amp; methods</h2>
+<p>My work centers on interacting quantum many-body systems, particularly where charge ordering, geometric frustration, and fractionalization challenge simple single-particle descriptions. I aim to connect microscopic lattice models with observables such as electrical conductivity, thermal response, and finite-temperature phase transitions.</p>
+<p>I use exact diagonalization (including targeted eigensolvers), finite-temperature Lanczos methods, Monte Carlo simulations, and tensor-network approaches, supported by analytical arguments and symmetry considerations.</p>
+<div class="method-tags"><span>Exact diagonalization</span><span>FTLM</span><span>Monte Carlo</span><span>Tensor networks</span><span>Many-body theory</span></div>
+</section>
+<section id="wigner" class="research-section">
+<span class="research-index">02 · Electronic crystallinity</span>
+<h2>Generalized Wigner crystals and quantum melting</h2>
+<p>In triangular moiré systems, repulsive interactions can stabilize commensurate charge patterns at fractional filling. My research examines how long-range Coulomb interactions, screening, and quantum hopping determine the stability of these generalized Wigner crystals.</p>
+<p>I also investigate their finite-temperature melting. The effect of quantum fluctuations is not always a simple suppression of order: for certain first-order transitions, changes in the energy and entropy of competing phases can produce an increase in the melting temperature.</p>
+<div class="research-links"><a href="https://www.nature.com/articles/s41535-025-00792-1" target="_blank" rel="noopener noreferrer">Origin and stability of generalized Wigner crystallinity ↗</a><a href="https://arxiv.org/abs/2604.19870" target="_blank" rel="noopener noreferrer">Quantum fluctuations and melting temperatures ↗</a></div>
+</section>
+<section id="pinball" class="research-section">
+<span class="research-index">03 · Correlated metals · Ongoing</span>
+<h2>Pinball liquids and triangular-lattice Hubbard models</h2>
+<p>A pinball liquid is a partially charge-ordered metal: charge-rich sites form a relatively localized background, while other carriers remain itinerant. It offers a setting to investigate the coexistence of strong electronic crystallinity and metallic conduction.</p>
+<p>My current work explores the spinful extended Hubbard model on a triangular lattice at average electron density <em>n</em> = 1/2. Questions of interest include the evolution between metallic, pinball-liquid, and charge-ordered insulating regimes, and the temperature and frequency dependence of electrical transport.</p>
+<p class="research-note">These transport questions are ongoing investigations; this section does not imply a universal resistivity law or an established phase boundary.</p>
+</section>
+<section id="thermal-hall" class="research-section">
+<span class="research-index">04 · Frustrated quantum magnets</span>
+<h2>Kitaev physics and thermal Hall transport</h2>
+<p>Kitaev-type spin models provide a route to unconventional excitations and topological phenomena. I study how magnetic fields and additional interactions affect fractionalization, magnetic order, and thermal transport.</p>
+<p>My work on Kitaev–Heisenberg systems examines thermal Hall conductivity near field-suppressed magnetic order. A central question is how thermal Hall signatures evolve when the system departs from an idealized spin-liquid limit.</p>
+<div class="research-links"><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.L220406" target="_blank" rel="noopener noreferrer">Thermal Hall conductivity in a Kitaev–Heisenberg model ↗</a><a href="https://iopscience.iop.org/article/10.1088/1361-648X/ad6827" target="_blank" rel="noopener noreferrer">Field tuning Kitaev systems ↗</a></div>
+</section>
+<section id="quasiparticles" class="research-section">
+<span class="research-index">05 · Many-body excitations</span>
+<h2>Quasiparticle stability and Hilbert-space structure</h2>
+<p>In strongly interacting systems, excitations can lose their conventional quasiparticle character. I use many-body eigenstates and targeted numerical methods to examine the stability and reconstruction of excitations beyond weak-coupling approximations.</p>
+<p>This perspective has informed my work on Kitaev-related spin systems and the random <em>t</em>–<em>J</em> model, connecting spectral structure to the fate of quasiparticle-like excitations.</p>
+<div class="research-links"><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.L081120" target="_blank" rel="noopener noreferrer">Quasiparticle metamorphosis in the random t–J model ↗</a><a href="https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.100401" target="_blank" rel="noopener noreferrer">Kitaev quasiparticles in a proximate spin liquid ↗</a></div>
+</section>
+<section id="directions" class="research-section">
+<span class="research-index">06 · Research outlook</span>
+<h2>Current directions</h2>
+<p>My present interests include correlated transport and metal–insulator transitions in triangular-lattice models, quantum melting in moiré materials, and optical or electromagnetic responses of interacting electrons. I am also interested in strain and orbital-current response in layered graphene systems.</p>
+<p>Across these directions, the objective is to formulate experimentally testable diagnostics while keeping the distinction between established results and new hypotheses clear.</p>
+</section>
+</div>
+</div>
+</main>
+<footer class="site-footer"><span>Aman Kumar · Nanyang Technological University, Singapore</span><a href="mailto:aman.kumar@ntu.edu.sg">Contact ↗</a></footer>
+</div>
+</body>
+</html>
