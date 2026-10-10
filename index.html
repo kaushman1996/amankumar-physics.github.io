@@ -4,71 +4,31 @@
   <meta charset="UTF-8">
   <title>Aman Kumar | Condensed Matter Theory</title>
 
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      color: #111;
-      background: #ffffff;
-      line-height: 1.6;
-    }
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-    nav {
-      margin-bottom: 30px;
-      font-size: 18px;
-    }
-    nav a {
-      text-decoration: none;
-      color: #0645ad;
-      margin-right: 15px;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    h1 {
-      margin-bottom: 5px;
-    }
-
-    /* ✅ Profile photo: small, clean, professional */
-    .profile-photo {
-      float: right;
-      max-width: 210px;   /* adjust to 100px if you want smaller */
-      width: 100%;
-      height: auto;
-      margin-left: 20px;
-      margin-bottom: 10px;
-      border-radius: 6px;
-    }
-  </style>
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="home">
 <div class="container">
 
-<nav>
-  <a href="index.html">Home</a>
+<nav aria-label="Main navigation">
+  <a href="index.html" class="active">Home</a>
   <a href="research.html">Research</a>
   <a href="publications.html">Publications</a>
   <a href="teaching.html">Teaching</a>
   <a href="CV.pdf">CV</a>
 </nav>
 
-<!-- ✅ Profile photo -->
-<img src="photo.png" alt="Aman Kumar" class="profile-photo">
-
+<section class="hero">
+<img src="photo.png" alt="Portrait of Aman Kumar" class="profile-photo">
+<div class="eyebrow">Condensed Matter Theory · Quantum Many-Body Physics</div>
 <h1>Aman Kumar</h1>
-<b>Theoretical Condensed Matter Physics</b><br>
-Research Scholar<br>
-Nanyang Technological University (NTU), Singapore
-
-<p>
-📧 aman.kumar@ntu.edu.sg<br>
-🔗 <a href="https://scholar.google.com/citations?user=ucgYPl8AAAAJ">Google Scholar</a>
-</p>
-
+<div class="discipline">Theoretical Condensed Matter Physics</div>
+<div class="affiliation"><strong>Research Scholar</strong><br>Nanyang Technological University (NTU), Singapore</div>
+<div class="contact"><a href="mailto:aman.kumar@ntu.edu.sg">✉ Email</a><a href="https://scholar.google.com/citations?user=ucgYPl8AAAAJ" target="_blank" rel="noopener noreferrer">↗ Google Scholar</a><a href="CV.pdf">↓ Download CV</a></div>
+</section>
+<main class="home-content">
 <h2>About</h2>
 <p>
 I am a condensed matter theorist working on emergent phenomena in strongly correlated
@@ -87,6 +47,7 @@ with experimentally observable signatures.
   <li>Quasiparticle stability in many‑body Hilbert space</li>
 </ul>
 
+</main>
 </div>
 </body>
 </html>
